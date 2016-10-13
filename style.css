@@ -1,0 +1,56 @@
+body {
+	font-family: -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", "San Francisco", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Roboto", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Lucida Grande", sans-serif;
+	line-height: 1.26em;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+#icons {
+	font-size: 1.08em;
+	line-height: 1.46em;
+}
+#email {
+	padding-bottom: 0.2em;
+}
+#avatar {
+	border-radius: 28%;
+	width:60px;
+	height:60px;
+	float: right;
+	right: 50%;
+	margin-right: 40px;
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+}
+.early::before {
+	content: "mail@brooks.is";
+}
+.late::before {
+	content: "";
+}
+
+.full {
+	width: 49%;
+	display: inline-block;
+	border-style: none;
+	height: 100%;
+	clear: right;
+}
+#right {
+	float: right;	
+}
+#rightinfo {
+	padding-top: 0.4em;
+  position: relative;
+  left: -2.4em;
+  top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
+#left: {
+	float: left;
+}
